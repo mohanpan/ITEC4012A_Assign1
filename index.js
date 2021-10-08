@@ -14,7 +14,7 @@ app.get('/api/penguins', (req, res) => {
     //call to database
 
     //return dummy data
-    const penguins = ["Fun facts about penguins: ", "penguin fact 1 ", "penguin fact 2 ", "penguin fact 3 ", "penguin fact 4 ", "penguin fact 5 ", "penguin fact 6 ", "penguin fact 7 ", "penguin fact 8 ", "penguin fact 9 ", "penguin fact 10"];
+    const penguins = ["Fun facts about penguins: ", "1. Never freeze", "2. Have enough fat to keep its body temperature", "3. Feathers are waterproof", "4. Penguins mean fat birds", "5. penguin in ancient China means birds who are standing", "6. The wings of birds have become vestigial, and these birds become penguins", "penguin fact 7 ", "penguin fact 8 ", "penguin fact 9 ", "penguin fact 10"];
     res.send(JSON.stringify(penguins));
 });
 
