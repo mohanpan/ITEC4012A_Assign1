@@ -14,7 +14,7 @@ app.get('/api/penguins', (req, res) => {
     //call to database
 
     //return dummy data
-    const penguins = ["Fun facts about penguins: ", "1. Never freeze", "2. Have enough fat to keep its body temperature", "3. Feathers are waterproof", "4. Penguins mean fat birds", "5. penguin in ancient China means birds who are standing", "6. The wings of birds have become vestigial, and these birds become penguins", "penguin fact 7 ", "penguin fact 8 ", "penguin fact 9 ", "penguin fact 10"];
+    const penguins = ["Fun facts about penguins: ", "1. Never freeze", "2. Have enough fat to keep its body temperature", "3. Feathers are waterproof", "4. Penguins mean fat birds", "5. penguin in ancient China means birds who are standing", "6. The wings of birds have become vestigial, and these birds become penguins", "7. The biggest penguin is Emperor penguin, who can weight more than 30kg!", "8. The smallest penguin is Eudyptula minor, and it is truly blue!", "9. Almost 3% of the water in the Antarctic Circle is made by penguin's urine, so don't drink the water there :)", "10. Penguin can jump 1.8m high!"];
     res.send(JSON.stringify(penguins));
 });
 
