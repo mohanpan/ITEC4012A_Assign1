@@ -22,7 +22,7 @@ app.get('/api/bears', (req, res) => {
     //call to database
 
     //return dummy data
-    const bears = ["Fun facts about bears: ","bear fact 1", "bear fact 2 ", "bear fact 3 ", "bear fact 4 ", "bear fact 5 ", "bear fact 6 ", "bear fact 7 ", "bear fact 8 ", "bear fact 9 ", "bear fact 10"];
+    const bears = ["Fun facts about bears: ","1. With well training and love, bears can hug you, watch TV with you, water your flowers and host your wedding", "2. Polar bear's fur is empty in the center, it is waterproof and heat-protected", "3. Polar bear has fuzz on its sole, so it can walk on the ice not slip", "4. Canada Manitoba Churchchill has more polar bears not human beings", "5. Bears have two layers of fur, one for keep warm, the other for protect that one from water.", "6. Only polar bear is meat only bear.", "7. Sun bear has longest tongue", "8. The heart beat of bear is 40 per mins, in winter sleep, that decrease to 8 per mins.", "9. Not like other mammal, bears can see multiple colors, too!", "10. "];
     res.send(JSON.stringify(bears));
 });
 
